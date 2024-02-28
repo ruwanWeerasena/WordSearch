@@ -1,0 +1,21 @@
+.container {
+    color: black;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    max-width: 500px;
+    /* box-shadow: 1px 2px 5px rgb(0, 0, 0); */
+    border: 1px #2F3C7E solid;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0px 10px;
+    color:  #2F3C7E;
+    font-weight: bold;
+}
+
+.container:hover {
+    background-color:#f8dde0 ;
+}

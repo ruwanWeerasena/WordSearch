@@ -1,0 +1,22 @@
+
+  .content {
+    display: flex;
+    flex-grow: 1;
+    padding: 1rem;
+    align-items: start;
+    justify-content: center;
+    
+  }
+  .welcometext {
+    text-align:center;  
+    font-size:4rem;  
+    font-family:"Dancing Script";
+  }
+  @media (max-width: 660px) {
+    .welcometext { font-size:2rem; }
+  }
+  @media (max-width: 300px) {
+    .welcometext { font-size:1rem; }
+  }
+
+  

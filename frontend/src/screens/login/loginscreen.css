@@ -1,0 +1,93 @@
+
+
+.logincontainer {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginborder {
+    display: flex;
+    flex-direction: column;
+    gap:  1rem;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #2F3C7E;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+
+.logincontainer input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 1.5rem;
+}
+.logincontainer input::placeholder {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(182, 182, 182);
+    text-align: center;
+}
+
+.sectionlogin button {
+    width: 100%;
+    height: 40px;
+    font-size: 1.5rem;
+    background-color: rgb(46, 136, 210);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.sectionlogin button:hover {
+    background-color: rgb(5, 101, 181) ;
+    cursor: pointer;
+}
+
+.sectionheading p {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white ;
+}
+#sectiontextLink {
+    color: white;
+   
+}
+.externallogins{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    font-weight: bold;
+}
+.extloginbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: aqua;
+    width: 40%;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    color: rgb(46, 136, 210);
+}
+.extloginbuttons:hover {
+    background-color: rgb(141, 174, 201) ;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .loginborder { width: 70%; }
+}
+@media (max-width: 300px) {
+    .loginborder { width: 100%; }
+}
+

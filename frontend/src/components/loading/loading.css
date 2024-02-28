@@ -1,0 +1,25 @@
+.loading{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    opacity: 0.7;
+    width: 100%;
+    position: absolute;
+    /* z-index: 20; */
+    top: 0px;
+    height: 100vh;
+}
+.loadericon {
+    animation: spin 0.5s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}

@@ -1,0 +1,48 @@
+.popupmenucontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #2F3C7E;
+    position: absolute;
+    z-index: 20;
+    top: 50px;
+    right: 10px;
+    min-height: 70px;
+    width: 80px;
+    padding: 5px;
+    color:white;
+    gap:10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+
+}
+#popupmenulist{
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+.popupmenulinks{
+    color: white;
+    font-size: 0.8rem;
+    background-color: #656d95;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+.signbutton{
+    padding: 5px;
+    color: rgba(120, 1, 1, 0.625);
+    font-weight: bold;
+    background-color: #656d95;
+    border: none;
+    border-radius: 10px;
+  }
+.popupmenulinks:hover{
+    color: rgb(224, 162, 162);
+    
+}

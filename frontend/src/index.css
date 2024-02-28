@@ -1,0 +1,20 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #FBEAEB;
+  color: #2F3C7E;
+  cursor:default;
+}
+
+
+@media (max-width: 300px) {
+  body { font-size:0.8rem; }
+}

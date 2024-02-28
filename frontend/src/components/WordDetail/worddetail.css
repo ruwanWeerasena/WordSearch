@@ -1,0 +1,68 @@
+.worddetail{
+    display: flex;
+    flex-direction: column;
+    background-color: #2F3C7E;
+    width: 50%;
+    justify-content: space-around;
+    align-items:center;
+    position: absolute;
+    z-index: 15;
+    top: 30%;
+    max-height: 70%;
+    min-height: 40%;
+    padding: 5px;
+    color:white;
+    gap:10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    /* overflow: hidden; */
+}
+#title{
+    font-weight: bold;
+    color: #f77d85;
+}
+#description{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    overflow-y: scroll;
+    height: 80px;
+}
+#example1{
+    font-size: 1rem;
+    align-self: start;
+}
+#example2{
+    font-size: 1rem;
+    align-self: start;
+}
+#voice{
+    /* font-size: 1rem; */
+}
+
+.exspans{
+    color: #f77d85;
+}
+#modifybuttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+#modifybuttons button{
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .worddetail { width: 60%; }
+}
+
+@media (max-width: 400px) {
+    .worddetail { width: 90%; }
+}
